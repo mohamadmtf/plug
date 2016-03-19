@@ -232,32 +232,32 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {213699396},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
+    about_text = [[Norton X
 An advanced administration bot based on TG-CLI written in Lua
 
 https://github.com/SEEDTEAM/TeleSeed
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
+@nortonadmin [Founder]
+@Nortonadmin [Developer]
+@c_n_a [Developer]
+@badtiger2 [Manager]
+@norton [bot]
 
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+cna
+hex
+nortom
+me
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@Nortonteam [English]
+@NortonTeam [persian]
 
 Our website 
-http://teleseed.seedteam.org/
+http://NortonTeam.nrn.org/
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -343,7 +343,7 @@ This command will send text to [group_id]
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
-Commands list :
+Norton X Commands list :
 
 !kick [username|id]
 You can also do it by reply
@@ -472,7 +472,7 @@ will return group ban list
 
 ]],
 	help_text_super =[[
-SuperGroup Commands:
+Norton X SuperGroup Commands:
 
 !info
 Displays general info about the SuperGroup
