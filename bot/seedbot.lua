@@ -232,35 +232,30 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {213699396},--Sudo users
+    sudo_users = {213699396,177340295},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Norton X
 An advanced administration bot based on TG-CLI written in Lua
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/close.source
 
 Admins
-@nortonadmin [Founder]
-@Nortonadmin [Developer]
+@norto_sudo [Founder]
 @c_n_a [Developer]
 @badtiger2 [Manager]
-@norton [bot]
+@norton_x [bot]
 
 Special thanks to
-cna
-hex
-nortom
-me
+sina
+just sina
+@c_n_a
 
 Our channels
-@Nortonteam [English]
 @NortonTeam [persian]
 
-Our website 
-http://NortonTeam.nrn.org/
 ]],
     help_text_realm = [[
-Realm Commands:
+Nortin X Realm Commands:
 
 !creategroup [Name]
 Create a group
