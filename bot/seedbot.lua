@@ -232,7 +232,7 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {213699396,177340295},--Sudo users
+    sudo_users = {213699396,177340295,96700621},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Norton X
 An advanced administration bot based on TG-CLI written in Lua
