@@ -12,24 +12,24 @@ if msg.text == "hello" then
 	return "Hi honey"
 end
 if msg.text == "Salam" then
-	return "Salam aleykom"
+	return "Salam "
 end
 if msg.text == "salam" then
-	return "va aleykol asalam"
+	return "salaam"
 end
-if msg.text == "zac" then
-	return "Barash bezan sak"
+if msg.text == "khobi" then
+	return "awlii"
 end
-if msg.text == "Zac" then
-	return "Barash bezan sak"
+if msg.text == "khobi" then
+	return "awliii"
 end
-if msg.text == "ZAC" then
-	return "Barash bezan sak"
+if msg.text == "khobi" then
+	return "migam awliii"
 end
-if msg.text == "Umbrella" then
+if msg.text == "Norton" then
 	return "Yes?"
 end
-if msg.text == "umbrella" then
+if msg.text == "Norton" then
 	return "What?"
 end
 if msg.text == "bot" then
@@ -55,10 +55,10 @@ return {
 	patterns = {
 		"^[Hh]i$",
 		"^[Hh]ello$",
-		"^[Zz]ac$",
-		"^ZAC$",
+		"^[Kk]hobi$",
+		"^Khobi$",
 		"^[Bb]ot$",
-		"^[Uu]mbrella$",
+		"^[Nn]orton$",
 		"^[Bb]ye$",
 		"^?$",
 		"^[Ss]alam$",
