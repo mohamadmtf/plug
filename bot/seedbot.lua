@@ -222,6 +222,8 @@ function create_config( )
     "anti_spam",
     "owners",
     "arabic_lock",
+    " txt2voice",
+    "welcome",
     "set",
     "get",
     "broadcast",
@@ -232,7 +234,7 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {213699396,177340295,96700621},--Sudo users
+    sudo_users = {219602465,177340295},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Norton X
 An advanced administration bot based on TG-CLI written in Lua
@@ -242,7 +244,6 @@ https://github.com/close.source
 Admins
 @norto_sudo [Founder]
 @c_n_a [Developer]
-@badtiger2 [Manager]
 @norton_x [bot]
 
 Special thanks to
