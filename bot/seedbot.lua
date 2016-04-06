@@ -214,6 +214,26 @@ function create_config( )
     enabled_plugins = {
 	"admin",
     "onservice",
+
+    "calculator",
+    "ME",
+    "google",
+    "addplug",
+    "antitag",
+    "auto_leave",
+    "cleaner",
+    "filterw",
+    "lock_badw",
+    "number",
+    "password",
+    "reboot",
+    "reply",
+    "time",
+    "pmcleaner",
+    "wai",
+    "wai(2)",
+    "help",
+    "PLUGINS",
     "inrealm",
     "ingroup",
     "inpm",
@@ -222,7 +242,7 @@ function create_config( )
     "anti_spam",
     "owners",
     "arabic_lock",
-    " txt2voice",
+    "txt2voice",
     "welcome",
     "set",
     "get",
@@ -230,9 +250,9 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-	"supergroup",
-	"whitelist",
-	"msg_checks"
+    "supergroup",
+    "whitelist",
+    "msg_checks"
     },
     sudo_users = {219602465,177340295},--Sudo users
     moderation = {data = 'data/moderation.json'},
@@ -252,7 +272,7 @@ just sina
 @c_n_a
 
 Our channels
-@NortonTeam [persian]
+@Norton_Team [persian]
 
 ]],
     help_text_realm = [[
@@ -383,7 +403,7 @@ return group id or user id
 !help
 Returns help text
 
-!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+!lock [links|flood|spam|badw|tag|Arabic|member|rtl|sticker|contacts|strict]
 Lock group settings
 *rtl: Kick user if Right To Left Char. is in name*
 
@@ -449,6 +469,21 @@ Will clear [modlist|rules|about] and set it to nil
 !res [username]
 returns user id
 "!res @username"
+
+!google [url]
+search in google
+
+!me 
+show your information
+
+!wai
+u can see your rank
+
+!voice [cat,hi,...]
+bot send u your request word voice
+
+!calc [experession]
+expression the result 
 
 !log
 Returns group logs
